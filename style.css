@@ -1,0 +1,289 @@
+/* General setup */
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+* {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+header {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  border: #a66 solid;
+  background-color: aliceblue;
+}
+
+/* Nav */
+
+a {
+  color: black;
+  font-weight: bolder;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(150, 16, 16);
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: #a66;
+  height: 90px;
+  padding-top: 3px;
+  font-size: 22px;
+  display: flex;
+
+  color: black;
+}
+.nav1 {
+  background-color: aliceblue;
+  width: 135px;
+  height: 60px;
+  border-radius: 50px;
+
+  margin: auto;
+  padding-top: 14px;
+}
+
+/* Layout */
+
+.bravecontainer {
+  background: linear-gradient(rgba(5, 6, 16, 0.5), rgba(73, 11, 11, 0.5)),
+    url("https://www.temple.edu/sites/www/files/styles/tu_cta_width_takeover-descriptive/public/cta/20231024_FallStockRSB_025-High%20Res%20JPEG%20300%20DPI.jpg?itok=b0oEYibg");
+  box-shadow: rgba(0, 0, 0, 0.1);
+  text-shadow: 0.15em 0 black, 0 0.15em black, -0.015em 0 black,
+    0 -0.015em black;
+
+  height: 500px;
+  background-repeat: no-repeat;
+  border: rgb(248, 244, 244) solid;
+  color: rgb(244, 239, 239);
+
+  font-size: larger;
+  padding-top: 50px;
+}
+.bravecontainer a:hover {
+  text-decoration: underline;
+
+  color: rgb(150, 16, 16);
+}
+.bravecontainer h2,
+p,
+a {
+  width: 800px;
+  margin: auto;
+}
+
+.bravecontainer h2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.bravecontainer p {
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.bravecontainer a {
+  color: white;
+  font-weight: bolder;
+}
+
+section {
+  float: left;
+  width: 50%;
+}
+
+.life-container {
+  margin: 0%;
+  background-color: rgb(240, 243, 246);
+  border: rgb(248, 244, 244) solid;
+}
+
+.life-container h2,
+li,
+ol,
+li,
+a {
+  text-align: center;
+}
+.life-container ol {
+  background-color: #a66;
+  border-radius: 20px;
+  border-end-end-radius: 250px 100px;
+  direction: ltr;
+  width: 1000px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.intro {
+  height: 280px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.intro h2 {
+  font-size: 60px;
+}
+
+.intro p {
+  font-size: 22px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+
+  margin-left: 40px;
+  width: 500px;
+  height: 200px;
+}
+
+.image-container img {
+  width: 250px;
+  height: 200px;
+}
+.image-container p {
+  width: 150px;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.img1 {
+  width: 250px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.img1 img {
+  border: #a66 solid;
+}
+.img2 {
+  width: 250px;
+  margin-right: 20px;
+}
+
+.img2 img {
+  border: #a66 solid;
+  margin-top: 25px;
+}
+.img3 {
+  width: 250px;
+  margin-right: 20px;
+}
+
+.img3 img {
+  border: #a66 solid;
+  margin-top: 25px;
+}
+.img4 {
+  width: 250px;
+  margin-right: 20px;
+}
+.img4 img {
+  border: #a66 solid;
+}
+.next-container {
+  padding-top: 100px;
+  font-size: 22px;
+}
+
+.nexts-container ol {
+  background-color: #a66;
+  margin: auto;
+}
+
+.next-container p {
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+.complessons-container {
+  display: flex;
+  margin: auto;
+
+  width: 600px;
+  height: 200px;
+}
+
+.complessons-container p {
+  text-align: center;
+}
+
+.courses-container {
+  background-color: #a66;
+  border-radius: 20px;
+  border-end-end-radius: 140px 100px;
+  direction: ltr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+
+  height: 230px;
+}
+
+.courses-container a {
+  border: solid rgb(242, 238, 238);
+  width: 200px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+footer {
+  clear: both;
+}
+
+/* header and footer */
+
+
+
+footer {
+  height: 250px;
+  border: 5px solid #a66;
+  margin-bottom: 60px;
+  background-color: #a66;
+  padding-left: 20px;
+}
+
+.smedia-container img {
+  width: 40px;
+  height: 40px;
+}
+
+footer p {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+@media all and (max-width: 1024px) {
+  body {
+    width: 400px;
+  }
+
+  .nexts-container ol {
+    width: 700px;
+  }
+}
